@@ -37,12 +37,12 @@ python3 main.py --mode train --data_dir path/to/IAM
 
 ### Demo
 
-* From command line:
+* For command line:
 ```
 python3 main.py --img_file ../data/line.png
 ```
 
-* From web:
+* For web:
 ```
 python3 main.py --infer_by_web 1
 ```
