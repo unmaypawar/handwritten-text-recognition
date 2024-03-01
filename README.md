@@ -1,6 +1,6 @@
 # handwritten-text-recognition
 
-## About
+## Description
 
 <p>This project is dedicated to the development of a sophisticated handwritten text recognition system leveraging Convolutional Neural Networks (CNNs). The primary objective is to accurately identify and interpret handwritten characters, subsequently transforming them into editable digital documents. Through meticulous training on a dataset rich in handwritten samples, the CNN model harnesses intricate spatial hierarchies within the input data, enabling precise character recognition. This approach not only enhances the efficiency of converting handwritten content into digital format but also contributes to the automation of tasks previously reliant on manual transcription.</p>
 
@@ -8,13 +8,13 @@
 
 <p>Furthermore, to showcase the capabilities of this system, a web-based demo has been developed, allowing users to experience firsthand the process of handwritten text recognition and document conversion. Through the intuitive interface of the web demo, users can upload handwritten documents and witness the CNN model in action as it accurately identifies and converts the handwritten characters into editable digital format.</p>
 
-## Installation
+## Installation Instructions
 
 ```
 conda create --name htr --file requirements.txt
 ```
 
-## Usage
+## Usage Instructions
 
 ### Dataset
 
@@ -46,3 +46,11 @@ python3 main.py --img_file ../data/line.png
 ```
 python3 main.py --infer_by_web 1
 ```
+
+## Contribution Guidelines
+
+Fork the repository to your GitHub account and please create a new branch for each feature or bug fix.
+
+## Support Information
+
+Please raise an issue or a pull request.
